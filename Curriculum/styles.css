@@ -1,10 +1,10 @@
 body {
-    background-color: #f0f0f0;
+    background-color: #F5EBE6;
     margin: 0px;
+    font-family: "Tahoma", sans-serif;
 }
 
 header {
-    font-family: "Tahoma", sans-serif;
     background-image: url(Images/image.png);
     background-position: 0%;
     color: #b8763c;
@@ -13,26 +13,41 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    
 }
 
 blockquote {
     margin: 0px;
 }
 
-ul {
-    font-size: 18px;
-    list-style-type: none;
-}
 
 div {
     align-items: end;
 }
 
+.title {
+    margin: 20px;
+    padding-top: 60px;
+}
+
+p {
+    padding-right: 200px;
+    margin: 20px;
+    line-height: 1.5;
+    font-size: larger;
+}
+
+li{
+    font-size: larger;
+    padding-bottom: 30px;
+}
+
 .circular-img {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
     object-fit: cover;
+    padding: 80px;
 }
 
 nav a {
