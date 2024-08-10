@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    
+    font-size: medium;
 }
 
 blockquote {
@@ -69,11 +69,11 @@ ul{
 }
 
 .circular-img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin: 30px;
     border-radius: 50%;
     object-fit: cover;
-    padding: 80px;
 }
 
 nav a {
