@@ -2,12 +2,14 @@ body {
     background-color: #F5EBE6;
     margin: 0px;
     font-family: "Tahoma", sans-serif;
+    
 }
 
 header {
-    background-image: url(Images/image.png);
-    background-position: 0%;
-    color: #b8763c;
+    background-image: url(Images/background1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
     padding: 20px;
     border: 0px;
     display: flex;
