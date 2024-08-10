@@ -8,9 +8,8 @@ body {
 header {
     background-image: url(Images/background1.jpg);
     background-position: center;
-    background-repeat: no-repeat;
     color: #ffffff;
-    padding: 20px;
+    padding: 30px;
     border: 0px;
     display: flex;
     justify-content: space-between;
@@ -20,28 +19,53 @@ header {
 
 blockquote {
     margin: 0px;
+    margin-left: 0px;
 }
 
+
+
+
+.svg-icon{
+    vertical-align:middle;
+    width:40px;
+    height:40px; 
+ }
 
 div {
     align-items: end;
 }
 
 .title {
-    margin: 20px;
+    
     padding-top: 60px;
 }
 
-p {
-    padding-right: 200px;
-    margin: 20px;
+.paragraph {
+    padding-right: 100px;
+    padding-left: 50px;
     line-height: 1.5;
     font-size: larger;
 }
 
-li{
+.paragraph2 {
+    padding-right: 100px;
+    line-height: 1.5;
+    font-size: larger;
+}
+
+
+
+.li-object{
     font-size: larger;
     padding-bottom: 30px;
+}
+
+ol{
+    padding-left: 70px;
+}
+
+ul{
+    padding-left: 70px;
 }
 
 .circular-img {
@@ -62,7 +86,7 @@ nav a {
 section {
     background-color: #f9f9f9;
     border: 1px solid #ddd;
-    margin: 20px;
+    margin: 10px;
     padding: 20px;
 }
 
@@ -78,7 +102,8 @@ span {
 }
 
 footer {
-    background-color: #333;
+    background-image: url(Images/background1.jpg);
+    background-position: center;
     color: #fff;
     text-align: center;
     padding: 20px;
